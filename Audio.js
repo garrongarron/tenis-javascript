@@ -1,8 +1,10 @@
 import _ from './creator.js'
-let pegar = _('audio',null,{src:"/esfuerzo.mp3", preload:"auto"})
-let moneda = _('audio',null,{src:"/moneda.mp3", preload:"auto"})
-let aplausos = _('audio',null,{src:"/aplausos.mp3", preload:"auto"})
-let background = _('audio',null,{src:"/background.mp3", preload:"auto"})
+
+let prefix = location.href.replace('index.html','')
+let pegar = _('audio',null,{src:`${prefix}esfuerzo.mp3`, preload:"auto"})
+let moneda = _('audio',null,{src:`${prefix}moneda.mp3`, preload:"auto"})
+let aplausos = _('audio',null,{src:`${prefix}aplausos.mp3`, preload:"auto"})
+let background = _('audio',null,{src:`${prefix}background.mp3`, preload:"auto"})
 let stop = _('span', 'Música')
 document.body.appendChild(stop)
 
