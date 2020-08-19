@@ -1,0 +1,98 @@
+/*https://cutt.ly/ZfrSrHE*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+span{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    padding: 5px;
+    cursor: pointer;
+}
+svg{
+    background-color: #1ABC9C;
+    margin-top: 25vh;
+}
+.hide{
+    display: none !important;
+}
+h1{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 5em;
+    display: block;
+    text-align: center;
+    background-color: chocolate;
+    padding: .2em;
+}
+table{
+    position: absolute;
+    font-size: 2em;
+    color: chartreuse;
+}
+table:nth-child(2){
+    right: 0;
+}
+.comenzar{
+   position: absolute;
+   top: 0;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   cursor: pointer;
+}
+.comenzar > div{
+    position: relative;
+    margin-top: -15rem;
+    background-color: indigo;
+    color: white;
+    padding: 3rem;
+    height: auto;
+    border-radius: 1rem;
+    font-size: 3em;
+}
+div.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    top: 80px;
+}
+div.score > div{
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    right: 0; 
+    padding: 5px;
+    color: aliceblue;   
+}
